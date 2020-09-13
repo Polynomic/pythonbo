@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 import asyncio
 from webserver import keep_alive
-import os
 client = commands.Bot(command_prefix = 's!')
 
 @client.event
